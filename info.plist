@@ -65,7 +65,7 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>perl glue.pl set input '{query}'</string>
+				<string>ruby glue.rb set input '{query}'</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -84,7 +84,7 @@
 				<key>keyword</key>
 				<string>input</string>
 				<key>script</key>
-				<string>perl glue.pl list input</string>
+				<string>ruby glue.rb list input</string>
 				<key>title</key>
 				<string>Select Input Audio Device</string>
 				<key>type</key>
@@ -107,7 +107,7 @@
 				<key>keyword</key>
 				<string>output</string>
 				<key>script</key>
-				<string>perl glue.pl list output</string>
+				<string>ruby glue.rb list output</string>
 				<key>title</key>
 				<string>Select Output Audio Device</string>
 				<key>type</key>
@@ -126,7 +126,7 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>perl glue.pl set output '{query}'</string>
+				<string>ruby glue.rb set output '{query}'</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
