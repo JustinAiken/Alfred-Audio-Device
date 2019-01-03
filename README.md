@@ -1,5 +1,4 @@
-Introduction
-===
+## Introduction
 
 This is an [Alfred](http://www.alfredapp.com/) workflow for
 changing the OS X input and output audio devices. Under the hood it uses
@@ -9,10 +8,15 @@ GitHub.
 For more information and pretty pictures, I made a blog post about this when
 I initially wrote it. http://michael.thegrebs.com/2013/01/18/alfred2-audio-device/
 
-Installation
-===
+## Fork
 
-Click the [releases](https://github.com/mikegrb/Alfred-Audio-Device/releases)
-link above ----^ then click the green button to download the latest binary
-release. Once downloaded, double click the file and Alfred will prompt you to
-import it.
+I forked this, rewrote the perl in Ruby (because I don't know perl), and made these changes:
+- It shows the currently selected device with ***
+- You can add a config.yml:
+  - Hide devices you never choose (input, output, or all)
+  - Rename devices to have a friendly name
+  - Choose an icon instead of the default
+
+## Example:
+
+![preview](preview.png)
