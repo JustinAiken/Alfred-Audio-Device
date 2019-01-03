@@ -1,0 +1,8 @@
+Unused Device:
+  hide: all
+
+Ugly Named Device:
+  display: "My Device"
+
+Cool Device:
+  icon: "myicon.png"
